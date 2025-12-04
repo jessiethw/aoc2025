@@ -18,7 +18,8 @@ string read_inputs(string filename){
 	while (getline(f, s)){
                 contents+= s;
         }
-
+	
+	f.close();
         return contents;
 }
 
